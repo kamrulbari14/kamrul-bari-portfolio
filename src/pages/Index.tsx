@@ -208,6 +208,19 @@ const Index = () => {
               </div>
             </div>
             <div className="space-y-8">
+              {/* Profile Image */}
+              <div className="flex justify-center md:justify-end mb-8">
+                <div className="relative">
+                  <img 
+                    src="/images/kamrul-profile.png" 
+                    alt="Kamrul Bari - Software Engineer"
+                    className="w-80 h-80 object-cover rounded-2xl shadow-2xl"
+                  />
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-600/20 to-transparent"></div>
+                </div>
+              </div>
+              
+              {/* Career Timeline */}
               <div className="space-y-6">
                 <div>
                   <div className="flex justify-between items-start mb-2">
