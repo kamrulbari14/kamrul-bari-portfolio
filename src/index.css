@@ -169,20 +169,25 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar - updated for light theme */
+/* Custom scrollbar for dark theme */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #1f2937;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2563eb;
+  background: #3b82f6;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1d4ed8;
+  background: #2563eb;
+}
+
+/* Custom gradient colors */
+.bg-gray-750 {
+  background-color: rgb(55 65 81);
 }
